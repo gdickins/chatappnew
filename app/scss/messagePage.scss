@@ -1,0 +1,64 @@
+#message-page {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    #user-history-page {
+        height: 100vh;
+        width: 25vw;
+        border-right: 1px solid purple;
+    }
+    h3 {
+        font-size: 1em;
+    }
+    #chat-page {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 75vw;
+        align-self: flex-start;
+        justify-content: center;
+        #chat-container {
+            display: flex;
+            height: 80vh;
+            width: 75vw;
+            padding: 0;
+            margin: 0;
+        }
+        #send-btn {
+          color: red;
+          height: 3.5em;
+          width: 5em;
+          align-self: flex-end;
+          border: 1px solid purple;
+          border-radius: 3px;
+          margin: 0;
+        }
+        .entire-chat-box {
+          padding: 0;
+          margin: 0;
+          width: 75vw;
+          list-style-type: none;
+          li {
+            display: flex;
+            align-items: center;
+            .messageBody {
+              margin: 0;
+            }
+            .timeStamP {
+              margin: 0;
+            }
+          }
+        }
+    }
+}
+.user-chat-interaction {
+  #chatbox {
+      color: red;
+      width: 50vw;
+      border: none;
+      border-radius: 3px;
+      font-size: 2em;
+      align-self: flex-end;
+      margin: 0;
+  }
+}
